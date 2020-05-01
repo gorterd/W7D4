@@ -1,19 +1,46 @@
 .col {
-  // ...
+  float: left;
+  box-sizing: border-box;
 }
 
 /* Attribute selector targeting all elements
 with a class attribute containing 'col-' */
 [class*='col-'] {
-  // ...
+  padding-right: 20px;
 }
 
 [class*='col-']:last-of-type {
-  // ...
+  padding-right: 0;
+}
+
+.col-left {
+  width: 68%;
+}
+
+.col-headline {
+  width: 32.308%;
+}
+
+.col-video {
+  width: 67.692%;
+}
+
+.col-op {
+  width: 32%;
+}
+
+.col-op-sub {
+  width: 50%;
+}
+
+.cf:after {
+  content: '';
+  display: block;
+  clear: both;
 }
 
 @media all and (max-width: 1000px) {
   [class*='col-'] {
-    // width:
+    width: 100%
   }
 }

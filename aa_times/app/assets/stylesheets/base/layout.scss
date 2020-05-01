@@ -35,6 +35,20 @@ button:hover {
 	Header Rules
 */
 
+h1 {
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 900; // How do we make this bolder?
+}
+
+h1 a:hover, h2 a:hover {
+	text-decoration: underline;
+}
+
+h2 {
+	font-weight: 900; // How do we make this bolder?
+}
+
 hr {
 	border: 0;
 	height: 1px;

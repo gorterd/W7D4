@@ -1,0 +1,41 @@
+.main-content {
+  margin-top: 18px;
+}
+
+.byline {
+  padding: 4px 0px;
+  color: $gray;
+}
+
+.col-headline ul {
+  list-style: outside;
+  padding: 8px 14px;
+}
+
+.col-headline ul > li {
+  padding: 4px 0px;
+  line-height: 1.4;
+}
+
+.comments {
+  color: $blue;
+}
+
+.comments:hover {
+  text-decoration: underline;
+}
+
+.video-container > iframe {
+  width: 100%;
+}
+
+.video-container p {
+  padding: 10px 0;
+}
+
+.article-divider {
+  width: 50%;
+  border-top: 1px solid $light-gray;
+  margin: auto;
+}
+
