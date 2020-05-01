@@ -95,6 +95,6 @@
 }
 
 // This bolds every link, not just the first one!!!
-.language-nav a:first-of-type {
-  font-weight: 800;
+.language-nav li:first-of-type a {
+  font-weight: 900;
 }

@@ -1,0 +1,24 @@
+.sections-nav-links {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sections-nav-links li {
+    margin: 10px;
+    font-family: $sans-serif;
+}
+
+.sections-nav-links li:hover {
+    background-color: $lightest-gray;
+}
+
+.sections-nav {
+    border-bottom: 1px solid $light-gray;
+}
+
+.sections-nav-links li:last-child {
+    text-decoration: underline;
+    font-size: .7777777777778em;
+}
